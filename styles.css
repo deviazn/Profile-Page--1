@@ -1,0 +1,310 @@
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .nav {
+        background-color: #383838;
+        display: flex;
+        margin: 0px auto;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .nav-title {
+        color: white;
+        font-family: cursive;
+        padding: 6px 15px;
+        margin-left: 100px
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 6px 15px;
+        margin-right: 100px;
+    }
+    
+    .nav-links-btn a:link,
+    .nav-links-btn a:visited {
+        background-color: #383838;
+        color: lightgrey;
+        padding: 6px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-links-btn a:hover {
+        background-color: #383838;
+        color: white;
+        padding: 6px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-links-btn a:active {
+        background-color: #4a4949;
+        color: rgba(255, 255, 255, 0.811);
+        padding: 6px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-links .signoutbtn {
+        background-color: rgb(0, 156, 208);
+        font-family: cursive;
+        color: white;
+        padding: 2px 5px;
+        margin: 6px 15px;
+        box-shadow: 2px 2px black;
+    }
+    
+    .nav-links .signoutbtn:hover {
+        background-color: rgb(0, 129, 172);
+        color: white;
+    }
+    
+    .nav-links .signoutbtn:active {
+        background-color: rgb(0, 129, 172);
+        box-shadow: 0px 0px black;
+        transform: translate3d(1px, 1px, 1px);
+        color: black;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .content {
+        margin: 75px 100px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .content>* {
+        margin: 25px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .primary {
+        flex: 5;
+        flex-direction: column;
+        /* border-style: solid; */
+        min-width: 250px;
+    }
+    
+    .usercard {
+        font-family: cursive;
+    }
+    
+    .sidebar {
+        flex: 3;
+        /* border-style: solid; */
+        flex-direction: column;
+        min-width: 250px;
+        max-width: 450px;
+    }
+    
+    .primary>*,
+    .sidebar>* {
+        margin-bottom: 50px;
+    }
+    
+    .bluecard {
+        flex: 3;
+        background-color: rgb(2, 99, 99);
+        min-height: 100px;
+        border-radius: 2px;
+        flex-wrap: wrap;
+    }
+    
+    .whitecard {
+        flex-basis: 100%;
+        background-color: white;
+        border-radius: 2px;
+        border-style: solid;
+        border-color: gray;
+        border-top: none;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    
+    .whitecard * {
+        flex-basis: 60%;
+        padding-left: 10px;
+        margin-top: 5px;
+        padding-right: 10px;
+    }
+    
+    .greytop {
+        background-color: rgb(34, 34, 34);
+        border-radius: 2px;
+        padding: 10px;
+        color: white;
+    }
+    
+    .sidebar .greytop {
+        text-align: center;
+    }
+    
+    .numcircle {
+        background-color: lightgrey;
+        color: black;
+        border-radius: 50%;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    
+    .whitebottom {
+        flex-basis: 100%;
+        background-color: white;
+        border-radius: 2px;
+        border-style: solid;
+        border-color: gray;
+        border-top: none;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        flex-direction: column;
+        padding-bottom: 20px;
+        font-family: cursive;
+    }
+    
+    .whitebottom * {
+        flex-basis: 60%;
+        padding-left: 10px;
+        margin-top: 5px;
+        padding-right: 10px;
+    }
+    
+    .pfp {
+        background-color: white;
+        border-style: solid;
+        border-color: lightgray;
+        border-radius: 50%;
+        width: 106px;
+        height: 106px;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+    
+    .pfp img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 3px;
+        top: 3px;
+        border-radius: 50%;
+    }
+    
+    .icon {
+        height: 20px;
+    }
+    
+    .info * {
+        margin-top: 0px;
+    }
+    
+    .usericon {
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        border-style: 2px solid;
+        position: relative;
+        top: 8px;
+    }
+    
+    .usersidebar {
+        list-style: none;
+        vertical-align: middle;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    
+    .usersidebar li {
+        padding: 10px 10px
+    }
+    
+    .usersidebar .user {
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        text-overflow: ellipsis ellipsis;
+        white-space: nowrap;
+    }
+    
+    .reqbtn {
+        float: right;
+    }
+    
+    .reqbtn>* {
+        margin: 10px 5px;
+    }
+    
+    .reqbtn .accbtn {
+        height: 24px;
+        width: 24px;
+        background-image: url(assets/img/icons/accept-circle.png);
+        background-size: 24px 24px;
+        border-style: none;
+        border-radius: 50%;
+        margin-left: 0px;
+    }
+    
+    .reqbtn .decbtn {
+        height: 24px;
+        width: 24px;
+        background-image: url(assets/img/icons/close-circle.png);
+        background-size: 24px 24px;
+        border-style: none;
+        border-radius: 50%;
+    }
+    
+    .reqbtn .accbtn:hover {
+        background-color: lime;
+    }
+    
+    .reqbtn .decbtn:hover {
+        background-color: red;
+    }
+    
+    .reqbtn .accbtn:active,
+    .reqbtn .decbtn:active {
+        transform: translate3d(1px, 1px, 1px);
+    }
+    
+    .blueunderline a:link,
+    .blueunderline a:visited {
+        color: blue;
+    }
+    
+    .blueunderline a:hover {
+        color: blueviolet;
+    }
+    
+    .blueunderline a:active {
+        color: grey;
+    }
+    
+    .graydate {
+        color: gray;
+        padding-bottom: 10px;
+    }
